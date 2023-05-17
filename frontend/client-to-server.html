@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Requests</title>
+        <link rel="stylesheet" href="server-styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <a href="index.html" class="main-page-link">Main Page</a>
+            <button onclick="addModels()" class="add-models-btn">Добавить модели в базу данных</button>
+            <button onclick="addMtl()" class="add-mtl-btn">Добавить mtl</button>
+            <div class="input-wrapper">
+                <label for="input-model" class="input-label">Введите название модели:</label>
+                <input id="input-model" type="text" class="input-text"/>
+            </div>
+            <button onclick="addTextures()" class="add-textures-btn">Добавить текстуры к модели</button>
+        </div>
+
+        <script type="text/javascript" src="./client-to-server.js"></script>
+    </body>
+</html>

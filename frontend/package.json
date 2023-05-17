@@ -1,0 +1,19 @@
+{
+  "name": "stereojs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Artyom Plyusch",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.151.3"
+  },
+  "devDependencies": {
+    "vite": "^4.2.2"
+  }
+}
